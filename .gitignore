@@ -5,3 +5,7 @@ dist
 .DS_Store
 *.log
 .vite
+image-search/
+public/logosild_strona_new.png
+public/logo-final.png
+public/logo-perfect.png
