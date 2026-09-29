@@ -26,10 +26,10 @@ export default function Footer() {
 
       <div className="container-sild py-12 lg:py-16">
         <div className="grid grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
-          {/* Brand - Official logo - exact from logosild_strona.png */}
+          {/* Brand - Official logo - previous more similar */}
           <div className="col-span-2 lg:col-span-4">
             <div className="bg-white rounded-2xl p-4 inline-block">
-              <img src="/logosild_strona.png" alt="SILD Systemy Ogrodzeń Strzeszewski" className="h-auto w-full max-w-[380px] object-contain" />
+              <img src="/logo-official.png" alt="SILD Systemy Ogrodzeń Strzeszewski" className="h-auto w-full max-w-[380px] object-contain" />
             </div>
             <p className="mt-5 text-[14px] leading-[1.6] text-white/70 max-w-[360px]">
               Producent ogrodzeń metalowych od 2008 roku. Panele 3D, systemy nowoczesne Forte, Linea, Moderno, sztachety cięte na wymiar. Własna lakiernia proszkowa, dostawa 48h.
