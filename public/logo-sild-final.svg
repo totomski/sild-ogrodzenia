@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340">
+  <!-- Pixel-perfect trace of sild_logoFB.jpg - official SILD logo -->
+  <rect x="28" y="28" width="62" height="244" fill="#0F3D5E"/>
+  <g transform="translate(118,28)" stroke="#000" stroke-width="3.2" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- Outer square - 3 sides -->
+    <path d="M2 2 H216 V186"/>
+    <!-- 2nd -->
+    <path d="M20 20 H198 V168"/>
+    <!-- 3rd -->
+    <path d="M40 40 H178 V148"/>
+    <!-- 4th -->
+    <path d="M60 60 H158 V128"/>
+    <!-- Small inner square -->
+    <rect x="88" y="88" width="32" height="32" stroke-width="3.2"/>
+    <!-- 4 horizontal base lines - exact as in original -->
+    <line x1="2" y1="200" x2="216" y2="200" stroke-width="3.2"/>
+    <line x1="2" y1="216" x2="216" y2="216" stroke-width="3.2"/>
+    <line x1="2" y1="236" x2="216" y2="236" stroke-width="3.2"/>
+    <line x1="2" y1="252" x2="216" y2="252" stroke-width="3.2"/>
+  </g>
+  <!-- SILD - ultra thin geometric -->
+  <g font-family="'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" fill="#000">
+    <text x="380" y="190" font-size="152" font-weight="100" letter-spacing="6">SILD</text>
+  </g>
+  <!-- Blue and black lines -->
+  <rect x="384" y="210" width="132" height="6" fill="#0F3D5E"/>
+  <rect x="532" y="210" width="380" height="6" fill="#000"/>
+  <!-- SYSTEMY OGRODZEŃ -->
+  <text x="384" y="250" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="7" fill="#000">SYSTEMY OGRODZEŃ</text>
+  <!-- STRZESZEWSKI -->
+  <text x="384" y="286" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" letter-spacing="8.5" fill="#000">STRZESZEWSKI</text>
+</svg>

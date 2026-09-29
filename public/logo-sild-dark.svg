@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360">
+  <rect x="30" y="30" width="62" height="250" fill="#1E5A8A"/>
+  <g transform="translate(124,30)" stroke="#FFFFFF" stroke-width="3.4" fill="none">
+    <path d="M0 0 H220 V190"/>
+    <path d="M20 20 H200 V170"/>
+    <path d="M40 40 H180 V150"/>
+    <path d="M60 60 H160 V130"/>
+    <rect x="80" y="80" width="60" height="60"/>
+    <g>
+      <line x1="0" y1="202" x2="220" y2="202"/>
+      <line x1="0" y1="216" x2="220" y2="216"/>
+      <line x1="0" y1="230" x2="220" y2="230"/>
+      <line x1="0" y1="244" x2="220" y2="244"/>
+    </g>
+  </g>
+  <text x="390" y="200" font-family="Inter, Helvetica, Arial, sans-serif" font-size="150" font-weight="200" letter-spacing="8" fill="#FFFFFF">SILD</text>
+  <rect x="390" y="218" width="132" height="6" fill="#1E5A8A"/>
+  <rect x="538" y="218" width="380" height="6" fill="#FFFFFF"/>
+  <text x="390" y="262" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="7.5" fill="#FFFFFF">SYSTEMY OGRODZEŃ</text>
+  <text x="390" y="298" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="9.5" fill="#FFFFFF">STRZESZEWSKI</text>
+</svg>
