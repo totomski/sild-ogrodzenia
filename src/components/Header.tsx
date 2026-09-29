@@ -84,12 +84,34 @@ export default function Header() {
       <header className={`sticky top-0 z-40 bg-white/95 backdrop-blur-xl border-b transition-all ${scrolled ? 'shadow-[0_8px_30px_rgba(0,0,0,0.08)] border-zinc-200' : 'border-zinc-100'}`}>
         <div className="container-sild">
           <div className="flex items-center gap-4 lg:gap-8 h-[68px] lg:h-[84px]">
-            {/* Logo */}
-            <Link to="/" className="flex items-center gap-3 shrink-0">
-              <div className="w-10 h-10 lg:w-11 lg:h-11 rounded-xl bg-[#1e3a5f] flex items-center justify-center text-white font-black text-[18px] tracking-tight">S</div>
-              <div className="leading-none">
-                <div className="font-black text-[20px] lg:text-[22px] tracking-[-0.02em] text-[#1e3a5f]">SILD</div>
-                <div className="text-[10px] lg:text-[11px] tracking-[0.18em] font-semibold text-zinc-500 -mt-1">OGRODZENIA</div>
+            {/* Logo - Official SILD */}
+            <Link to="/" className="flex items-center gap-3 shrink-0 group">
+              <div className="hidden lg:block">
+                <img src="/logo-sild-compact.svg" alt="SILD Systemy Ogrodzeń Strzeszewski" className="h-[52px] w-auto object-contain group-hover:opacity-90 transition-opacity" />
+              </div>
+              <div className="lg:hidden flex items-center gap-2.5">
+                <div className="w-10 h-[42px] bg-[#12395A] shrink-0" />
+                <div className="w-[42px] h-[42px] relative shrink-0">
+                  <svg viewBox="0 0 100 100" className="w-full h-full">
+                    <g stroke="#000" strokeWidth="2.4" fill="none" strokeLinecap="square">
+                      <path d="M0 0 H85 V85"/>
+                      <path d="M8 8 H77 V77"/>
+                      <path d="M16 16 H69 V69"/>
+                      <path d="M24 24 H61 V61"/>
+                      <path d="M32 32 H53 V53"/>
+                      <rect x="36" y="36" width="13" height="13" strokeWidth="2.4"/>
+                      <line x1="0" y1="58" x2="45" y2="58"/>
+                      <line x1="0" y1="64" x2="45" y2="64"/>
+                      <line x1="0" y1="70" x2="45" y2="70"/>
+                      <line x1="0" y1="76" x2="45" y2="76"/>
+                      <line x1="0" y1="82" x2="45" y2="82"/>
+                    </g>
+                  </svg>
+                </div>
+                <div className="leading-none">
+                  <div className="font-light text-[28px] tracking-[0.02em] text-black -mb-1">SILD</div>
+                  <div className="text-[8px] tracking-[0.18em] font-semibold text-zinc-600">SYSTEMY OGRODZEŃ</div>
+                </div>
               </div>
             </Link>
 

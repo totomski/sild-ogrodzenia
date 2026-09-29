@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" width="520" height="200" role="img" aria-label="SILD Systemy Ogrodzeń Strzeszewski">
+  <style>
+    .sild-blue { fill: #12395A; }
+  </style>
+  <!-- Blue vertical bar -->
+  <rect x="0" y="0" width="52" height="118" class="sild-blue"/>
+
+  <!-- Icon -->
+  <g transform="translate(62,0)" stroke="#000" stroke-width="2.7" stroke-linecap="square" stroke-linejoin="miter" fill="none">
+    <path d="M0 0 H106 V106"/>
+    <path d="M10 10 H96 V96"/>
+    <path d="M20 20 H86 V86"/>
+    <path d="M30 30 H76 V76"/>
+    <path d="M40 40 H66 V66"/>
+    <rect x="45" y="45" width="16" height="16" stroke-width="2.7"/>
+    <g stroke-width="2.7">
+      <line x1="0" y1="73" x2="58" y2="73"/>
+      <line x1="0" y1="81" x2="58" y2="81"/>
+      <line x1="0" y1="89" x2="58" y2="89"/>
+      <line x1="0" y1="97" x2="58" y2="97"/>
+      <line x1="0" y1="105" x2="58" y2="105"/>
+    </g>
+  </g>
+
+  <!-- SILD -->
+  <g transform="translate(190,0)">
+    <text x="0" y="88" font-family="Inter, Helvetica, Arial, sans-serif" font-size="88" font-weight="300" letter-spacing="2" fill="#000">SILD</text>
+  </g>
+
+  <!-- Lines -->
+  <g transform="translate(0,130)">
+    <rect x="0" y="0" width="84" height="5" class="sild-blue"/>
+    <rect x="100" y="0" width="408" height="5" fill="#000"/>
+  </g>
+
+  <!-- SYSTEMY OGRODZEŃ -->
+  <g transform="translate(2,155)">
+    <text x="0" y="0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="500" letter-spacing="5.2" fill="#000">SYSTEMY OGRODZEŃ</text>
+  </g>
+  <!-- STRZESZEWSKI -->
+  <g transform="translate(2,182)">
+    <text x="0" y="0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="7.5" fill="#000">STRZESZEWSKI</text>
+  </g>
+</svg>

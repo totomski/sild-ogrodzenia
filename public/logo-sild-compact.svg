@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 118" width="340" height="118" role="img" aria-label="SILD">
+  <rect x="0" y="0" width="48" height="108" fill="#12395A"/>
+  <g transform="translate(56,0)" stroke="#000" stroke-width="2.6" stroke-linecap="square" fill="none">
+    <path d="M0 0 H98 V98"/>
+    <path d="M9 9 H89 V89"/>
+    <path d="M18 18 H80 V80"/>
+    <path d="M27 27 H71 V71"/>
+    <path d="M36 36 H62 V62"/>
+    <rect x="41" y="41" width="15" height="15" stroke-width="2.6"/>
+    <g stroke-width="2.6">
+      <line x1="0" y1="68" x2="53" y2="68"/>
+      <line x1="0" y1="75" x2="53" y2="75"/>
+      <line x1="0" y1="82" x2="53" y2="82"/>
+      <line x1="0" y1="89" x2="53" y2="89"/>
+      <line x1="0" y1="96" x2="53" y2="96"/>
+    </g>
+  </g>
+  <text x="172" y="82" font-family="Inter, Helvetica, Arial, sans-serif" font-size="78" font-weight="300" letter-spacing="1.5" fill="#000">SILD</text>
+</svg>
