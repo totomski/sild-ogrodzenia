@@ -84,13 +84,13 @@ export default function Header() {
       <header className={`sticky top-0 z-40 bg-white/95 backdrop-blur-xl border-b transition-all ${scrolled ? 'shadow-[0_8px_30px_rgba(0,0,0,0.08)] border-zinc-200' : 'border-zinc-100'}`}>
         <div className="container-sild">
           <div className="flex items-center gap-4 lg:gap-8 h-[68px] lg:h-[84px]">
-            {/* Logo - Official SILD - 1:1 from sild_logoFB.jpg */}
+            {/* Logo - Official SILD - exact from logosild_strona.png */}
             <Link to="/" className="flex items-center gap-3 shrink-0 group">
               <div className="hidden lg:block">
-                <img src="/logo-sild-compact.png" alt="SILD Systemy Ogrodzeń" className="h-[52px] w-auto object-contain object-left group-hover:opacity-90 transition-opacity" />
+                <img src="/logosild_strona.png" alt="SILD Systemy Ogrodzeń Strzeszewski" className="h-[64px] w-auto object-contain object-left group-hover:opacity-90 transition-opacity" />
               </div>
               <div className="lg:hidden flex items-center">
-                <img src="/logo-sild-compact.png" alt="SILD" className="h-[44px] w-auto object-contain object-left" />
+                <img src="/logosild_strona.png" alt="SILD" className="h-[48px] w-auto object-contain object-left" />
               </div>
             </Link>
 
