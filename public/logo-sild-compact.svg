@@ -1,19 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 118" width="340" height="118" role="img" aria-label="SILD">
-  <rect x="0" y="0" width="48" height="108" fill="#12395A"/>
-  <g transform="translate(56,0)" stroke="#000" stroke-width="2.6" stroke-linecap="square" fill="none">
-    <path d="M0 0 H98 V98"/>
-    <path d="M9 9 H89 V89"/>
-    <path d="M18 18 H80 V80"/>
-    <path d="M27 27 H71 V71"/>
-    <path d="M36 36 H62 V62"/>
-    <rect x="41" y="41" width="15" height="15" stroke-width="2.6"/>
-    <g stroke-width="2.6">
-      <line x1="0" y1="68" x2="53" y2="68"/>
-      <line x1="0" y1="75" x2="53" y2="75"/>
-      <line x1="0" y1="82" x2="53" y2="82"/>
-      <line x1="0" y1="89" x2="53" y2="89"/>
-      <line x1="0" y1="96" x2="53" y2="96"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" width="640" height="280">
+  <rect x="20" y="20" width="56" height="230" fill="#0F3D5E"/>
+  <g transform="translate(102,20)" stroke="#000" stroke-width="3.2" fill="none">
+    <path d="M0 0 H206 V186"/>
+    <path d="M18 18 H188 V168"/>
+    <path d="M36 36 H170 V150"/>
+    <path d="M54 54 H152 V132"/>
+    <rect x="72" y="72" width="56" height="56"/>
+    <g stroke-width="3.2">
+      <line x1="0" y1="198" x2="206" y2="198"/>
+      <line x1="0" y1="212" x2="206" y2="212"/>
+      <line x1="0" y1="226" x2="206" y2="226"/>
+      <line x1="0" y1="240" x2="206" y2="240"/>
     </g>
   </g>
-  <text x="172" y="82" font-family="Inter, Helvetica, Arial, sans-serif" font-size="78" font-weight="300" letter-spacing="1.5" fill="#000">SILD</text>
+  <text x="350" y="188" font-family="Inter, Helvetica, Arial, sans-serif" font-size="140" font-weight="200" letter-spacing="8" fill="#000">SILD</text>
 </svg>
