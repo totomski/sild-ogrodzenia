@@ -1,29 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360">
-  <!-- Blue bar -->
-  <rect x="30" y="30" width="62" height="250" fill="#0F3D5E"/>
-  <!-- Icon -->
-  <g transform="translate(124,30)" stroke="#000" stroke-width="3.4" fill="none" stroke-linecap="butt" stroke-linejoin="miter">
-    <!-- Outer square - 3 sides, bottom open -->
-    <path d="M0 0 H220 V190"/>
-    <path d="M20 20 H200 V170"/>
-    <path d="M40 40 H180 V150"/>
-    <path d="M60 60 H160 V130"/>
-    <rect x="80" y="80" width="60" height="60" stroke-width="3.4"/>
-    <!-- 4 horizontal lines at bottom -->
-    <g stroke-width="3.4">
-      <line x1="0" y1="202" x2="220" y2="202"/>
-      <line x1="0" y1="216" x2="220" y2="216"/>
-      <line x1="0" y1="230" x2="220" y2="230"/>
-      <line x1="0" y1="244" x2="220" y2="244"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340">
+  <!-- Exact trace of official SILD logo - cropped-logonazwisko.png -->
+  <rect x="28" y="28" width="62" height="244" fill="#0F3D5E"/>
+  <!-- Icon: 5 nested squares open at bottom + 4 lines -->
+  <g transform="translate(118,28)" stroke="#000" stroke-width="3.2" fill="none" stroke-linecap="square">
+    <path d="M2 2 H216 V186"/>
+    <path d="M20 20 H198 V168"/>
+    <path d="M40 40 H178 V148"/>
+    <path d="M60 60 H158 V128"/>
+    <rect x="88" y="88" width="32" height="32" stroke-width="3.2"/>
+    <!-- 4 horizontal base lines -->
+    <line x1="2" y1="200" x2="216" y2="200"/>
+    <line x1="2" y1="216" x2="216" y2="216"/>
+    <line x1="2" y1="236" x2="216" y2="236"/>
+    <line x1="2" y1="252" x2="216" y2="252"/>
   </g>
-  <!-- SILD text - thin -->
-  <text x="390" y="200" font-family="Inter, Helvetica, Arial, sans-serif" font-size="150" font-weight="200" letter-spacing="8" fill="#000">SILD</text>
-  <!-- Lines -->
-  <rect x="390" y="218" width="132" height="6" fill="#0F3D5E"/>
-  <rect x="538" y="218" width="380" height="6" fill="#000"/>
+  <!-- SILD - ultra thin -->
+  <text x="380" y="190" font-family="'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="152" font-weight="100" letter-spacing="6" fill="#000">SILD</text>
+  <!-- Lines below SILD -->
+  <rect x="384" y="210" width="132" height="6" fill="#0F3D5E"/>
+  <rect x="532" y="210" width="380" height="6" fill="#000"/>
   <!-- SYSTEMY OGRODZEŃ -->
-  <text x="390" y="262" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="7.5" fill="#000">SYSTEMY OGRODZEŃ</text>
+  <text x="384" y="250" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="7" fill="#000">SYSTEMY OGRODZEŃ</text>
   <!-- STRZESZEWSKI -->
-  <text x="390" y="298" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="9.5" fill="#000">STRZESZEWSKI</text>
+  <text x="384" y="286" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" letter-spacing="8.5" fill="#000">STRZESZEWSKI</text>
 </svg>
